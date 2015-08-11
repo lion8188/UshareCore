@@ -1,11 +1,8 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-<title>Spring MVC Tutorial Series by ushare.com</title>
-<style type="text/css">
-body {
-    background-image: url('http://crunchify.com/bg.png');
-}
-</style>
+<title>ushare.com</title>
+<%@ include file="/WEB-INF/jsp/shared/static.jsp" %>
 </head>
 <body>
     <br>
@@ -18,5 +15,6 @@ body {
             check Spring MVC Controller... @RequestMapping("/welcome"))
         </h3>
     </div>
+    <h1>Hello, world!</h1>
 </body>
 </html>
