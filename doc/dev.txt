@@ -1,3 +1,8 @@
+build:
 mvn clean install
 mvn tomcat7:run
 http://localhost:8080/UshareCore/home
+
+db:
+ant db-init
+ant db-create

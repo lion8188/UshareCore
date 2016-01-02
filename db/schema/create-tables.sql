@@ -1,0 +1,6 @@
+CREATE TABLE user (
+	id VARCHAR(20) NOT NULL,
+	name VARCHAR(40) NOT NULL,
+	CONSTRAINT user1_p PRIMARY KEY (id));
+
+
